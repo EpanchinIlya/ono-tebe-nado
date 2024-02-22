@@ -11,31 +11,27 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__menu">
-        <ul class="header__links-list">
-          <li class="first_link"><a class="href_no">главная</a></li>
-          <li class="secont_link">
-            <a class="href_no bord" href="#0">посмотреть лоты</a>
-          </li>
-          <li class="third_link">
-            <a class="href_no bord" href="#0">об аукционе</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="header__logo">
-        <a>
-          <img
-            class="header__logo-image"
-            src="images/logo-black.svg"
-            alt="Логотип"
-          >
-        </a>
-      </div>
+      <ul class="header__links-list">
+        <li class="first_link"><a class="href_no">главная</a></li>
+        <li class="secont_link">
+          <a class="href_no bord" href="#0">посмотреть лоты</a>
+        </li>
+        <li class="third_link">
+          <a class="href_no bord" href="#0">об аукционе</a>
+        </li>
+      </ul>
+      <a>
+        <img
+          class="header__logo-image"
+          src="images/logo-black.svg"
+          alt="Логотип"
+        >
+      </a>
 
       <address class="header__address">
         <a class="href_no bord" href="tel:+70000000">+9 999 555 5555</a><br>
-        <a class="href_no bord" href="mailto:mail@example.com">info@sobaka.ge</a><br>
+        <a class="href_no bord" href="mailto:mail@example.com">info@sobaka.ge</a
+        ><br>
         <p>наб. Принсенграхт 263-</p>
         <p>265, Амстердам</p>
       </address>
@@ -72,7 +68,7 @@
         </div>
       </article>
       <article class="lots">
-        <h1 class="lots__heading">лоты</h1>
+        <h2 class="lots__heading">лоты</h2>
 
         <ul class="lots__card-list">
           <li>
@@ -80,9 +76,9 @@
               <div class="overlay_card"></div>
               <div class="card_type_film"></div>
               <article class="card">
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
-                </h2>
+                </h3>
                 <p class="card__text card__text_margin_type_film">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр —
@@ -96,9 +92,9 @@
               <div class="overlay_card"></div>
               <div class="card_type_book"></div>
               <article class="card">
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h2>
+                </h3>
                 <p class="card__text card__text_margin_type_book">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -115,9 +111,9 @@
               <div class="overlay_card"></div>
               <div class="card_type_picture"></div>
               <article class="card">
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h2>
+                </h3>
                 <p class="card__text card__text_margin_type_picture">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -136,11 +132,15 @@
       <article class="about">
         <div class="about__logo">
           <div class="black_logo">
-            <img class="about_logo-image" src="images/logo-white.svg" alt="Логотип">
+            <img
+              class="about_logo-image"
+              src="images/logo-white.svg"
+              alt="Логотип"
+            >
           </div>
         </div>
         <div class="about_article">
-          <h1 class="about__title">oб аукционе</h1>
+          <h2 class="about__title">oб аукционе</h2>
           <p class="about__text p_first">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
@@ -162,7 +162,8 @@
     <footer class="footer">
       <address class="header__address adress">
         <a class="href_no bord" href="tel:+70000000">+9 999 555 5555</a><br>
-        <a class="href_no bord" href="mailto:mail@example.com">info@sobaka.ge</a><br>
+        <a class="href_no bord" href="mailto:mail@example.com">info@sobaka.ge</a
+        ><br>
         <p>наб. Принсенграхт 263-</p>
         <p>265, Амстердам</p>
       </address>
