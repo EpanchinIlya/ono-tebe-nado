@@ -46,8 +46,10 @@
 
 .header__logo-image {
   display: block;
-  height: 105px;
-  margin-left: 2px;
+  height: 109px;
+  width: 136px;
+  margin-left: 9px;
+  margin-top: -1px;
 }
 
 .header__address {
@@ -426,7 +428,7 @@
   height: 98px;
   margin: auto;
   margin-top: 179px;
-  margin-bottom: 88px;
+  margin:88px;
   font-size: 18px;
 }
 
